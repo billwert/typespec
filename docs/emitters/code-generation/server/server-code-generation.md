@@ -154,7 +154,7 @@ servers/
 
 *   **`Models`**: These files define the data models (also known as Data Transfer Objects or DTOs) used in your API (e.g., `TodoItem.cs`, `Project.cs`). These classes represent the structure of the data being exchanged between the client and the server.
 
-*   **`Operations`**: These files defines the service interface used for API operations.
+*   **`Operations`**: These files define the service interface used for API operations. You will implement these interfaces to execute the business logic for each operation.
 
 **Node.js/express example:**
 
