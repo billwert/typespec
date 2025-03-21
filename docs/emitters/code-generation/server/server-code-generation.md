@@ -150,7 +150,7 @@ servers/
 
 *   **`Controllers`**: These folders contain *base classes* for your API controllers (e.g., `CommentOpsOperationsControllerBase.cs`, `TodoItemsOperationsControllerBase.cs`). These base classes define the API endpoints and handle basic request processing. **You will need to create concrete controller classes that inherit from these base classes and implement your business logic.**
 
-*   **`lib`**: This directory contains utility classes such as custom attributes used for server side validation to ensure input data adhere to the spec.
+*   **`lib`**: This directory contains helper classes used in generated code, such as custom attributes used for server-side validation to ensure input data adhere to the spec.
 
 *   **`Models`**: These files define the data models (also known as Data Transfer Objects or DTOs) used in your API (e.g., `TodoItem.cs`, `Project.cs`). These classes represent the structure of the data being exchanged between the client and the server.
 
